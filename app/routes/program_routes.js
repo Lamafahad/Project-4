@@ -92,7 +92,7 @@ router.patch('/api/programs/:id', function(req, res) {
       res.status(204).end();
     })
     // Catch any errors that might occur
-    .catch(next)
+   // .catch(next)
 });
 
 /**
@@ -122,7 +122,7 @@ router.delete('/api/programs/:id', (req, res) => {
       res.status(204).end();
     })
     // Catch any errors that might occur
-    .catch(next)
+    // .catch(next)
 });
 
 
